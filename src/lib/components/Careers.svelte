@@ -1,11 +1,15 @@
 <script>
   const jobs = [
-    { title: 'Edge AI Engineer', category: 'TECH - ZURICH' },
-    { title: 'Forward Deployed Engineer', category: 'TECH - ZURICH' },
-    { title: 'AI Robotics Engineer', category: 'TECH - ZURICH' },
-    { title: 'Product Growth Associate', category: 'PRODUCT - ZURICH' },
-    { title: 'Head of Marketing', category: 'BUSINESS - ZURICH' },
-    { title: 'People & Organizational Excellence Lead', category: 'OPERATIONS - ZURICH' }
+    { title: 'Forward Deployed Engineer', category: 'ENGINEERING - REDMOND' },
+    { title: 'Embodied AI Engineer', category: 'ENGINEERING - REDMOND' },
+    { title: 'Perception & SLAM Machine Learning Engineer', category: 'ENGINEERING - REDMOND' },
+    { title: 'Robotics Software Engineer', category: 'ENGINEERING - REDMOND' },
+    { title: 'Senior Safety Systems Engineer', category: 'ENGINEERING - REDMOND' },
+    { title: 'Senior Mechanical Engineer', category: 'ENGINEERING - REDMOND' },
+    { title: 'Senior Electrical Engineer', category: 'ENGINEERING - REDMOND' },
+    { title: 'Tech Lead Manager', category: 'ENGINEERING - REDMOND' },
+    { title: 'Full Stack Software Engineer', category: 'ENGINEERING - REDMOND' },
+    { title: 'Technical Program Manager', category: 'OPERATIONS - REDMOND' }
   ];
 </script>
 
@@ -14,8 +18,8 @@
     <div class="mb-24 flex flex-col justify-between gap-12 lg:flex-row lg:items-end">
       <h2 class="text-6xl font-medium tracking-tight md:text-7xl lg:text-8xl">You in?</h2>
       <div class="max-w-xl text-xl leading-relaxed text-gray-300 md:text-2xl">
-        Zero passengers, everyone drives. <br />
-        If you've been called arrogant, obsessive, or unmanageable - welcome to our Zurich HQ.
+        Elite engineering. Fast-paced autonomy. High degree of impact. <br />
+        Join our Redmond team building the future of autonomous earthmoving.
       </div>
     </div>
 

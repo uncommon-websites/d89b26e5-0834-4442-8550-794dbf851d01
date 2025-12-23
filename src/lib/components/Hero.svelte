@@ -6,12 +6,12 @@
   <!-- Background Image -->
   <div class="absolute inset-0 z-0">
     <img 
-      src="https://images.unsplash.com/photo-1537462713505-a1ceac92ad28?q=80&w=2560&auto=format&fit=crop" 
-      alt="Industrial Welding" 
-      class="h-full w-full object-cover opacity-60"
+      src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=2560&auto=format&fit=crop" 
+      alt="Heavy Mining Equipment" 
+      class="h-full w-full object-cover opacity-50"
     />
-    <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60"></div>
-    <div class="absolute inset-0 bg-orange-900/20 mix-blend-overlay"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/70"></div>
+    <div class="absolute inset-0 bg-gray-900/30 mix-blend-overlay"></div>
   </div>
 
   <!-- Content -->
@@ -20,13 +20,13 @@
 
     <div class="mb-20 max-w-4xl">
       <h1 class="font-sans text-5xl font-medium leading-tight tracking-tight md:text-7xl lg:text-8xl">
-        Forging the <br />
-        next industrial <br />
-        revolution
+        Autonomous <br />
+        heavy equipment <br />
+        for continuous operation
       </h1>
       <div class="mt-8 max-w-md">
         <p class="text-lg font-light text-gray-200 md:text-xl">
-          Making Western manufacturing competitive through industrial intelligence
+          Retrofitting mining and construction fleets with plug-and-play AI for 24/7 safe productivity
         </p>
       </div>
     </div>

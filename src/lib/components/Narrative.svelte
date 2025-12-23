@@ -4,9 +4,9 @@
   let activeSection = 'making-kind';
 
   const sections = [
-    { id: 'making-kind', number: '01', title: 'The Making Kind' },
-    { id: 'industrial-intelligence', number: '02', title: 'Industrial intelligence' },
-    { id: 'why-now', number: '03', title: 'Why now?' }
+    { id: 'making-kind', number: '01', title: 'The Challenge' },
+    { id: 'industrial-intelligence', number: '02', title: 'The Solution' },
+    { id: 'why-now', number: '03', title: 'The Scale' }
   ];
 
   function handleScroll() {
@@ -47,7 +47,7 @@
               {section.title}
             </span>
             {#if activeSection === section.id}
-              <div class="h-1.5 w-1.5 bg-orange-500"></div>
+              <div class="h-1.5 w-1.5 bg-primary-600"></div>
             {/if}
           </button>
         {/each}
@@ -59,48 +59,48 @@
       
       <!-- Section 1 -->
       <div id="making-kind" class="mb-32 scroll-mt-32">
-        <h2 class="mb-12 text-4xl font-medium md:text-5xl">The Making Kind</h2>
+        <h2 class="mb-12 text-4xl font-medium md:text-5xl">The Challenge</h2>
         <div class="space-y-8 text-lg leading-relaxed text-gray-800">
           <p>
-            <em class="text-gray-500">We are makers.</em> What makes us human, what elevates us beyond all other forms of life is our ability to transform matter and knowledge into value - be it things or ideas - shaping experience into new inventions that make us and our lives better. Since the dawn of time, we've bent fire to our will, carved stone into tools, turned sound into language, and thoughts into technology. We don't just adapt and wait for the world to change; we forge the future with our own hands. Every spark, every structure, every idea is a declaration that we never stop becoming.
+            <em class="text-gray-500">Critical infrastructure depends on earthmoving.</em> Every mine, every construction site, every piece of planetary-scale infrastructure begins with moving earth. Excavators, bulldozers, loaders—these machines shape the physical world, extracting resources and building the foundations of civilization. Yet the industry faces an existential crisis: a severe labor shortage colliding with relentless demand for productivity.
           </p>
           <p>
-            <em class="text-gray-500">Creation becomes reality through production.</em> The very trait that makes us a super-species is also the engine behind every era, the force that turns imagination into substance, supplying the concepts and artifacts that define civilization. In the feudal age, society rested on those who controlled the land and the hands that work it, and the main purpose was survival: food, protection, stability. With the Industrial Revolution, humanity crossed into the capitalist stage, where control shifted to those who owned the means of production: the machines, the labour, the capital. From the forge to the factory, the West has carried the torch of progress.
+            <em class="text-gray-500">Human operators face impossible conditions.</em> Mining and construction sites are among the most dangerous work environments on Earth. Operators work in extreme weather, navigate hazardous terrain, and face constant risk of injury or death. Heat, dust, isolation, and the physical toll of operating heavy machinery for extended shifts make recruitment difficult and retention nearly impossible. The workforce is aging, and younger generations are choosing safer, more appealing careers.
           </p>
           <p>
-            <em class="text-gray-500">The West is losing against the East.</em> Western companies are being challenged - and beaten - in critical industries of tomorrow. Renewables are the energy of the future, and they are mostly produced in Asia. Robotics is the next manufacturing, and over two-thirds of the market belong to the East. Rare earths, semiconductors, and batteries are the raw materials of innovation, and China controls the first link of every supply chain. Intelligence is the only strategic frontier where the game between the two sides of the world remains contended. For the last twenty years, everyone predicted an Asian century with China as its next hegemon. They may be right about the trajectory, but they are wrong about the ending. We are losing, yes, but we will not lose.
+            <em class="text-gray-500">Productivity stops when humans must.</em> Equipment sits idle during shift changes, overnight, and in conditions too dangerous for human operation. Mining operations lose millions in downtime. Construction projects fall behind schedule. The $180 billion earthmoving market is constrained not by demand or capital, but by the fundamental limitation of human endurance and safety requirements. The machines are capable of 24/7 operation—but only if we can remove humans from harm's way while maintaining control.
           </p>
         </div>
       </div>
 
       <!-- Section 2 -->
       <div id="industrial-intelligence" class="mb-32 scroll-mt-32">
-        <h2 class="mb-12 text-4xl font-medium md:text-5xl">Industrial intelligence</h2>
+        <h2 class="mb-12 text-4xl font-medium md:text-5xl">The Solution</h2>
         <div class="space-y-8 text-lg leading-relaxed text-gray-800">
           <p>
-            <em class="text-gray-500">Factories were built to produce, not to reason.</em> Designed as closed systems, machines operate in fragments: precise in motion, blind in coordination. Fragmented across vendors, rigid in design and frozen in time, PLCs, robots, sensors, and drives are fluent in their own language but don't speak to one another. The result is a brainless system: efficient in parts, inefficient as a whole. Data flows endlessly but meaning goes nowhere. Intelligence - the frontier on which East and West now compete - has yet to reach the factory floor. Downtime grows, throughput falls, and production is offshored for cheap labour enabling flexible automation. We have mastered the mechanics, but not the mind.
+            <em class="text-gray-500">Retrofit any equipment, any age, any brand.</em> AIM's breakthrough is universality. Unlike competitors who require new equipment purchases or brand-specific integrations, our plug-and-play AI system retrofits existing fleets in 24 hours. Excavators, bulldozers, loaders, compactors—if it moves earth, we can make it autonomous. The same LiDAR, cameras, and sensor technology that powers self-driving cars now operates in the harshest environments on Earth, creating real-time 3D maps and navigating terrain that would challenge even experienced human operators.
           </p>
           <p>
-            <em class="text-gray-500">We are the intelligent layer for the real world.</em> We build the foundational software that brings physical intelligence into hardware, an AI-native orchestration infrastructure for the industrial space. Its platform runs causal AI agents on the edge, digital engineers that learn from data, make decisions and optimize production performance in real time, configuring and validating manufacturing lines, predicting failures, and guiding operators to act before downtime occurs. From one unified interface, Forgis connects machines, information, and logic, transforming disconnected automation into network of smart organisms: the brain of the factory.
+            <em class="text-gray-500">Autonomous operation, human oversight.</em> Our systems don't replace human expertise—they amplify it. Operators transition from cab seats to remote control centers, managing multiple machines simultaneously through intuitive interfaces. They upskill into site planning, fleet optimization, and data analytics roles. Real-time KPI data flows continuously, enabling short-interval control strategies and daily performance tracking. When conditions become too dangerous for humans—extreme weather, unstable ground, toxic environments—the machines continue working autonomously while humans remain safe.
           </p>
           <p>
-            <em class="text-gray-500">Forgis unlocks the next industrial revolution,</em> a world where factories operate as plug-and-play systems: adaptive, collaborative, and self-optimizing. Each plant becomes part of a cognitive network linking demand, design, and production. Orders flow directly from digital marketplaces into the line, and AI agents interpret requirements, reconfigure machines, and adjust parameters in real time to manufacture different products on demand. Just-in-time, tailored manufacturing becomes the norm; mass production, with its waste, the exception. A shift in corporate strategy translates instantly into a shift in physical output: strategy becomes execution. Humans act as conductors, freed from routine troubleshooting, focusing on creation, quality, and innovation, while the factory runs in seamless orchestration below. Domestic fabrication regains its edge over offshoring; flexibility is no longer outsourced but embedded in the system itself. Downtime fades, inefficiency disappears, and carbon emission from transportation minimized. This is Industry 5.0, an era of modular, sustainable, and human-centered manufacturing, driven by Forgis industrial intelligence.
+            <em class="text-gray-500">Fully insured, fully validated.</em> AIM-enabled machines are fully insured for autonomous operation by a global insurance company—a validation that our safety systems meet the highest standards. We've deployed at Fortune 500 mining operations including Minerals Technologies Inc., proving our technology in real-world conditions. Zero-entry sites eliminate hazard exposure entirely. Continuous operation means no shift changes, no fatigue-related errors, no weather delays. The result: maximum safety, maximum productivity, and a clear path to scaling autonomous fleets across the $180 billion earthmoving market.
           </p>
         </div>
       </div>
 
       <!-- Section 3 -->
       <div id="why-now" class="mb-32 scroll-mt-32">
-        <h2 class="mb-12 text-4xl font-medium md:text-5xl">Why now?</h2>
+        <h2 class="mb-12 text-4xl font-medium md:text-5xl">The Scale</h2>
         <div class="space-y-8 text-lg leading-relaxed text-gray-800">
           <p>
-            <em class="text-gray-500">Technology is converging.</em> For years, intelligent automation was out of reach: vision too unreliable, compute too slow, and integration too brittle. That has changed. AI agents can now reason, plan, and collaborate, while edge devices can host powerful GPUs and large language models that bring cognition directly to the shop floor, and multi-agent systems synchronize decision-making across machines. These breakthroughs point toward the next organic step in technology: physical AI.
+            <em class="text-gray-500">$180 billion market, proven deployment model.</em> We're starting with mining fleets where the value proposition is clearest: continuous operation in dangerous conditions with immediate ROI. But the addressable market extends across the entire earthmoving industry—construction, infrastructure development, land reclamation. Every bulldozer, every excavator, every loader represents an opportunity to deploy our retrofit technology. With 24-hour installation time and compatibility with any equipment brand, we can scale rapidly without the constraints of manufacturing new machines.
           </p>
           <p>
-            <em class="text-gray-500">Factories are back on the political map.</em> From American reshoring plans to Europe's industrial revival, the West is rediscovering the strategic power of making. Yet hardware - the foundation of that strength - is now commoditized and largely owned by Asia. Intelligence is now the all-in move of the United States, the pivot on which global hegemony is being played. Whoever masters industrial cognition will define the next era of production.
+            <em class="text-gray-500">World-class team and backing.</em> Our engineering team brings experience from Google, Waymo, SpaceX, Tesla, and leading AI research institutions. We've assembled an advisory board spanning AI pioneers (Transformer co-inventor Jakob Uszkoreit, Microsoft CSO Eric Horvitz), military leadership (Lt. Gen. H.R. McMaster), and mining operations experts with 40+ years of field experience. In June 2025, we raised $50 million from Khosla Ventures, General Catalyst, DCVC, and other top-tier investors who understand the magnitude of this opportunity.
           </p>
           <p>
-            <em class="text-gray-500">We are obsessed with the problem.</em> We like the challenge, thriving on decoding the intricate puzzle of industrial automation. We are intense, putting twice the speed, triple the time, every day. We get things done: high quantity at high quality, staying until it works right. We are hungry: we win, unafraid to step on the lines. We are not a family; we are comrades on a mission: to bring machine intelligence to Western factories.
+            <em class="text-gray-500">Mission-driven, execution-focused.</em> We're not building autonomous equipment as a technology demonstration. We're terraforming this planet—reversing the negative effects of climate change by enabling the construction of planetary-scale infrastructure. We're automating the world to make jobs safe and productive, eliminating hazards while upskilling workers into higher-value roles. This is the next industrial revolution, and we're deploying it today across operations in the United States, Australia, Africa, and Europe. Thousands of autonomous machines. Continuous safe operation. The future of earthmoving is here.
           </p>
         </div>
       </div>
