@@ -6,8 +6,8 @@
   <!-- Background Image -->
   <div class="absolute inset-0 z-0">
     <img 
-      src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=2560&auto=format&fit=crop" 
-      alt="Heavy Mining Equipment" 
+      src="/uploaded/1766467680128-n5c0mqh.png" 
+      alt="Autonomous bulldozer operating in harsh weather conditions" 
       class="h-full w-full object-cover opacity-50"
     />
     <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/70"></div>
